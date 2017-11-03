@@ -2,32 +2,60 @@ body {
   background: url('https://i.imgur.com/K03pmj0.jpg');
 }
 
-
-
-
 /** Styling for pictures **/
 
-.roboticsPics {
+#rockClimbingPic {
+  height: 500px;
+  float: left;
+  position: relative;
+  margin-left: 75px;
+  margin-top: 5px;
+  border: 5px solid rgb(57, 163, 224);
+  border-radius: 5px;
+}
+
+.roboticsPic {
   float: left;
   width: 500px;
-}
-#picOfMe2 {
-  float: right;
+  border: 5px solid rgb(57, 163, 224);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  position: relative;
 }
 
+.headerPics {
+  display: inline-grid;
+}
 
 /**************************/
 
-/** Styling for headers **/
+/** Styling for header **/
 
 .myName {
-  text-align: center;
-  padding-top: 300px;
+
   font-family: helvetica;
+  font-size: 50px;
+  position: absolute;
+  float: left;
   color: white;
+  margin: 75px 0px 0px 100px;
+  min-width: 800px;
 }
+
 #nameHighlight {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 25px;
 }
 
 /**************************/
+
+/*** Info list styling ***/
+
+.infoListUL {
+  color: white;
+}
+
+.aboutMe {
+  font-size: 25px;
+}
+/*****************************/
