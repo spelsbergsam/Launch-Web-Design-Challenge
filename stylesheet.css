@@ -1,4 +1,33 @@
 body {
-  background-color:black;
-
+  background: url('https://i.imgur.com/K03pmj0.jpg');
 }
+
+
+
+
+/** Styling for pictures **/
+
+.roboticsPics {
+  float: left;
+  width: 500px;
+}
+#picOfMe2 {
+  float: right;
+}
+
+
+/**************************/
+
+/** Styling for headers **/
+
+.myName {
+  text-align: center;
+  padding-top: 300px;
+  font-family: helvetica;
+  color: white;
+}
+#nameHighlight {
+  background: rgba(0,0,0,0.5);
+}
+
+/**************************/
