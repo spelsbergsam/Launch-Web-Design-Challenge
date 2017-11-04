@@ -1,5 +1,7 @@
+/** general elements **/
+
 body {
-  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Space_Needle002.jpg/1200px-Space_Needle002.jpg');
+  background-color: white;
 }
 
 .subheader {
@@ -9,31 +11,30 @@ body {
 #siteDescription {
   font-size: 20px;
   margin-left: 10px;
+  color: rgb(80, 80, 80);
 }
 
 #mainContent {
-  height: 100%;
+  margin-left: 600px;
+  width: 60%;
 }
 
 /** Styling for pictures **/
 
-#rockClimbingPic {
-  height: 500px;
+#roboticsPic2 {
   float: left;
-  position: relative;
-  margin-left: 75px;
-  margin-top: 5px;
-  border: 5px solid rgb(17, 153, 137);
-  border-radius: 5px;
-}
-
-.roboticsPic {
-  float: left;
-  width: 500px;
-  border: 5px solid rgb(17, 153, 137);
+  min-width: 300px;
+  border: 5px solid rgb(255,255,255);
   border-radius: 5px;
   margin-bottom: 5px;
-  position: relative;
+
+}
+#roboticsPic {
+  margin-left: -22px;
+  margin-top: -28px;
+  margin-bottom: -10px;
+  width: 600px;
+  position: fixed;
 }
 
 .headerPics {
@@ -41,8 +42,6 @@ body {
   padding-right: 14px;
   padding-top: 20px;
   padding-left: 14px;
-  border-right: 10px solid rgb(162, 160, 137);
-  background-color: rgb(222, 224, 203);
 }
 
 #omanPic {
@@ -58,19 +57,20 @@ body {
 /** Styling for header **/
 
 .textSection {
-  font-family: helvetica;
-  font-size: 55px;
+  font-family: 'Alegreya Sans';
   position: absolute;
   float: left;
-  color: rgb(231, 232, 183);
-  margin: 60px 0px 0px 15px;
+  margin: 15px 0px 0px 0px;
   min-width: 800px;
 }
 
 #nameHighlight {
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(255, 255, 255, 0.25);
   padding: 25px;
   border-radius: 10px;
+  border-bottom: 3px solid black;
+  font-size: 55px;
+  font-family: 'Alegreya Sans SC';
 }
 
 /**************************/
@@ -79,25 +79,23 @@ body {
 
 .sectionContent {
   font-size: 16px;
-  background-color: rgba(0, 0, 0, 0.85);
   padding: 2px 10px 10px 5px;
   border-radius: 10px;
   max-width: 900px;
+  background-color: white;
+  color: rgb(80, 80, 80);
 }
 
 .sectionHeader {
   font-size: 35px;
-  margin-top: 50px;
-  background-color: rgba(0, 0, 0, 0.85);
+  margin-top: 25px;
   border-radius: 10px;
   max-width: 400px;
-
 }
 
 #infoDivs {
   max-width: 1500px;
   min-width: 800px;
-  background-color: rgba(0, 0, 0, 0.6);
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
@@ -105,8 +103,9 @@ body {
 }
 
 details summary::-webkit-details-marker { display:none; }
+
 summary:hover {
-  text-decoration-line: underline;
-  color: rgb(51, 205, 195);
+  color: rgb(184, 184, 184);
 }
+
 /*****************************/
