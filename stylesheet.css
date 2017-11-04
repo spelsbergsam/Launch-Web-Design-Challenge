@@ -7,7 +7,9 @@ body {
 .subheader {
   font-size: 35px;
   margin-bottom: -16px;
+  margin-top: 6px;
 }
+
 #siteDescription {
   font-size: 20px;
   margin-left: 10px;
@@ -45,11 +47,15 @@ body {
 }
 
 #omanPic {
-  width: 150px;
+  width: 250px;
+}
+#climbingPic {
+  width: 297px;
+  margin-left: 50px
 }
 
 .resume {
-  width: 800px;
+  width: 650px;
 }
 
 /**************************/
@@ -66,7 +72,8 @@ body {
 
 #nameHighlight {
   background: rgba(255, 255, 255, 0.25);
-  padding: 25px;
+  padding-left: 25px;
+  padding-bottom: 5px;
   border-radius: 10px;
   border-bottom: 3px solid black;
   font-size: 55px;
@@ -79,7 +86,7 @@ body {
 
 .sectionContent {
   font-size: 16px;
-  padding: 2px 10px 10px 5px;
+  margin-top: -5px;
   border-radius: 10px;
   max-width: 900px;
   background-color: white;
@@ -102,10 +109,14 @@ body {
   border-radius: 10px;
 }
 
-details summary::-webkit-details-marker { display:none; }
+details summary::-webkit-details-marker {
+  display:none;
+}
 
 summary:hover {
   color: rgb(184, 184, 184);
+  cursor: pointer;
+
 }
 
 /*****************************/
