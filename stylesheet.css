@@ -1,6 +1,5 @@
 body {
-
-background: url('https://i.imgur.com/K03pmj0.jpg');
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Space_Needle002.jpg/1200px-Space_Needle002.jpg');
 }
 
 .subheader {
@@ -11,8 +10,9 @@ background: url('https://i.imgur.com/K03pmj0.jpg');
   font-size: 20px;
   margin-left: 10px;
 }
-#mainSection {
 
+#mainContent {
+  height: 100%;
 }
 
 /** Styling for pictures **/
@@ -57,7 +57,7 @@ background: url('https://i.imgur.com/K03pmj0.jpg');
 
 /** Styling for header **/
 
-.myName {
+.textSection {
   font-family: helvetica;
   font-size: 55px;
   position: absolute;
@@ -104,4 +104,9 @@ background: url('https://i.imgur.com/K03pmj0.jpg');
   border-radius: 10px;
 }
 
+details summary::-webkit-details-marker { display:none; }
+summary:hover {
+  text-decoration-line: underline;
+  color: rgb(51, 205, 195);
+}
 /*****************************/
