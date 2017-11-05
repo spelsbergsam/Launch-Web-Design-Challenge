@@ -6,6 +6,8 @@
 
 body {
   background: url('http://www.ideasphere.com/wp-content/uploads/2016/08/Savin-NY-Website-Background-Web-1.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .subheader {
@@ -17,22 +19,21 @@ body {
 #siteDescription {
   font-size: 20px;
   margin-left: 10px;
+  margin-bottom: -15px;
   color: rgb(80, 80, 80);
 }
 
 #mainContent {
   margin-left: 600px;
   width: 60%;
-
-
 }
 
 /** Styling for pictures **/
 
 
 #hackCvilleLogo {
-  width: 25%;
-  margin-left: 250px;
+  width: 300px;
+  margin-left:50px;
   margin-top: 100px;
 }
 
@@ -41,13 +42,22 @@ body {
   margin-left: -22px;
   margin-top: -28px;
   margin-bottom: -10px;
-  width: 600px;
-  position: fixed;
+  width: 580px;
+  position: absolute;
+  border: 2px solid rgb(90, 56, 173);
+  border-left: 0px;
+  border-radius: 5px;
 }
+
 #roboticsPic2 {
   border-radius: 20px;
   margin-right: -150px;
   margin-top: 20px;
+}
+#roboticsPic3 {
+  height: 333px;
+  border-radius: 20px;
+  margin-left: 200px;
 }
 
 .headerPics {
@@ -87,21 +97,20 @@ body {
   font-family: 'Alegreya Sans';
   position: absolute;
   float: left;
-  margin: 15px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
   min-width: 800px;
 }
 
 #nameHighlight {
-  background: rgb(26, 135, 228);
   padding-left: 25px;
   padding-bottom: 5px;
   border-radius: 10px;
-  border-bottom: 8px solid rgb(90, 56, 173);
+  border-bottom: 6px solid rgb(90, 56, 173);
   font-size: 55px;
   font-family: 'Alegreya Sans SC';
   user-select: none;
   cursor: default;
-  color: white;
+  margin-top: -15px;
 }
 
 
@@ -114,16 +123,17 @@ body {
   margin-top: -5px;
   border-radius: 10px;
   max-width: 900px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   color: rgb(80, 80, 80);
 }
 
 .sectionHeader {
   font-size: 35px;
   margin-top: 35px;
+  padding-left: 5px;
   border-radius: 10px;
   max-width: 400px;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 #infoDivs {
