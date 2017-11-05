@@ -48,10 +48,12 @@ body {
 
 #omanPic {
   width: 250px;
+  border-radius: 25px;
 }
 #climbingPic {
   width: 297px;
-  margin-left: 50px
+  margin-left: 50px;
+  border-radius: 25px;
 }
 
 .resume {
@@ -78,7 +80,10 @@ body {
   border-bottom: 3px solid black;
   font-size: 55px;
   font-family: 'Alegreya Sans SC';
+  user-select: none;
+  cursor: default;
 }
+
 
 /**************************/
 
@@ -112,7 +117,21 @@ body {
 details summary::-webkit-details-marker {
   display:none;
 }
+details[open] summary:before {
+  font-family: arial;
+  content: "- ";
+}
+details[open] summary {
 
+}
+
+details summary:before {
+  content: "+ ";
+}
+summary {
+  outline: none;
+  user-select: none;
+}
 summary:hover {
   color: rgb(184, 184, 184);
   cursor: pointer;
