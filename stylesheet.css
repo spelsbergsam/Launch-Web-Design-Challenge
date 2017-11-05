@@ -5,7 +5,7 @@
 /** general elements **/
 
 body {
-
+  background: url('http://www.ideasphere.com/wp-content/uploads/2016/08/Savin-NY-Website-Background-Web-1.jpg');
 }
 
 .subheader {
@@ -29,18 +29,13 @@ body {
 
 /** Styling for pictures **/
 
-/** #uvaLogo {
-  width: 125px;
-  margin-left: 700px;
-  <img src="https://i.imgur.com/Nd1HKY2.png" id="uvaLogo">
-  margin-top: -100px;
-}
+
 #hackCvilleLogo {
   width: 25%;
   margin-left: 250px;
   margin-top: 100px;
 }
-**/
+
 
 #roboticsPic {
   margin-left: -22px;
@@ -48,6 +43,11 @@ body {
   margin-bottom: -10px;
   width: 600px;
   position: fixed;
+}
+#roboticsPic2 {
+  border-radius: 20px;
+  margin-right: -150px;
+  margin-top: 20px;
 }
 
 .headerPics {
@@ -92,15 +92,16 @@ body {
 }
 
 #nameHighlight {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgb(26, 135, 228);
   padding-left: 25px;
   padding-bottom: 5px;
   border-radius: 10px;
-  border-bottom: 3px solid black;
+  border-bottom: 8px solid rgb(90, 56, 173);
   font-size: 55px;
   font-family: 'Alegreya Sans SC';
   user-select: none;
   cursor: default;
+  color: white;
 }
 
 
@@ -122,6 +123,7 @@ body {
   margin-top: 35px;
   border-radius: 10px;
   max-width: 400px;
+  background: rgba(255, 255, 255, 0.9);
 }
 
 #infoDivs {
